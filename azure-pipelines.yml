@@ -15,7 +15,7 @@ variables:
   #functionAppName: 'sh-demo-dev-api'
 
   # Environment name
-  #environmentName: 'sh-demo-dev-api'
+  environmentName: 'sh-demo-dev-api'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
