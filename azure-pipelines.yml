@@ -10,7 +10,7 @@ variables:
 
   # Azure Resource Manager connection created during pipeline creation
   #azureSubscription: '3b6b6f17-dae3-4a37-acd2-cbba7c4a29cc'
-  azureSubscription: 'c6e3a5c5-d34a-4cfd-8db8-865b19be5c4d'
+  #azureSubscription: 'c6e3a5c5-d34a-4cfd-8db8-865b19be5c4d'
 
   # Function app name
   #functionAppName: 'sh-demo-dev-api'
@@ -19,8 +19,9 @@ variables:
   environmentName: 'sh-demo-dev-api'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
-
+  #vmImageName: 'ubuntu-latest'
+pool:
+  vmImage: ubuntu-latest
 stages:
 - stage: Build
   displayName: Build stage
